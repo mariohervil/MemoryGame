@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4D92EAE3-7EA3-4CE0-BBDD-46997C1799DF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>JuegoMemoria</RootNamespace>
+    <AssemblyName>JuegoMemoria</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\cat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Images\add.png" />
+    <Content Include="bin\Debug\Images\game-over2.png" />
+    <Content Include="bin\Debug\Images\game-over.png" />
+    <None Include="Resources\add-button.png" />
+    <None Include="Resources\add%281%291.png" />
+    <None Include="Resources\start-button.png" />
+    <None Include="Resources\correct.wav" />
+    <None Include="Resources\you.png" />
+    <None Include="Resources\img24.png" />
+    <None Include="Resources\img23.png" />
+    <None Include="Resources\img22.png" />
+    <None Include="Resources\img21.png" />
+    <None Include="Resources\img20.png" />
+    <None Include="Resources\img19.png" />
+    <None Include="Resources\img18.png" />
+    <None Include="Resources\img17.png" />
+    <None Include="Resources\img16.png" />
+    <None Include="Resources\img15.png" />
+    <None Include="Resources\img14.png" />
+    <None Include="Resources\img13.png" />
+    <None Include="Resources\img12.png" />
+    <None Include="Resources\img11.png" />
+    <None Include="Resources\img10.png" />
+    <None Include="Resources\img9.png" />
+    <None Include="Resources\img8.png" />
+    <None Include="Resources\img7.png" />
+    <None Include="Resources\img6.png" />
+    <None Include="Resources\img5.png" />
+    <None Include="Resources\img4.png" />
+    <None Include="Resources\img3.png" />
+    <None Include="Resources\img2.png" />
+    <None Include="Resources\img1.png" />
+    <None Include="Resources\bow-and-arrow.png" />
+    <None Include="Resources\dragon.png" />
+    <None Include="Resources\bear.png" />
+    <None Include="Resources\tiger.png" />
+    <None Include="Resources\lion.png" />
+    <None Include="Resources\sword.png" />
+    <None Include="Resources\zombie.png" />
+    <None Include="Resources\ice-axe.png" />
+    <None Include="Resources\axes.png" />
+    <None Include="Resources\shark.png" />
+    <None Include="Resources\frog.png" />
+    <None Include="Resources\shield.png" />
+    <None Include="Resources\dog.png" />
+    <None Include="Resources\knight.png" />
+    <None Include="Resources\orc.png" />
+    <None Include="Resources\elf.png" />
+    <None Include="Resources\thor.png" />
+    <None Include="Resources\skull.png" />
+    <None Include="Resources\cryptocurrency.png" />
+    <None Include="Resources\barrel.png" />
+    <None Include="Resources\treasure-chest.png" />
+    <None Include="Resources\spear.png" />
+    <None Include="Resources\staff.png" />
+    <None Include="Resources\trending.png" />
+    <None Include="bin\Debug\Images\gameover.png" />
+    <Content Include="bin\Debug\Images\plus.png" />
+    <None Include="Resources\add%281%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

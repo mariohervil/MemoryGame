@@ -1,0 +1,10 @@
+E:\2DAM\M7\JuegoMemoria\obj\Debug\JuegoMemoria.csproj.AssemblyReference.cache
+E:\2DAM\M7\JuegoMemoria\obj\Debug\JuegoMemoria.Form1.resources
+E:\2DAM\M7\JuegoMemoria\obj\Debug\JuegoMemoria.Properties.Resources.resources
+E:\2DAM\M7\JuegoMemoria\obj\Debug\JuegoMemoria.csproj.GenerateResource.cache
+E:\2DAM\M7\JuegoMemoria\obj\Debug\JuegoMemoria.csproj.CoreCompileInputs.cache
+E:\2DAM\M7\JuegoMemoria\bin\Debug\JuegoMemoria.exe.config
+E:\2DAM\M7\JuegoMemoria\bin\Debug\JuegoMemoria.exe
+E:\2DAM\M7\JuegoMemoria\bin\Debug\JuegoMemoria.pdb
+E:\2DAM\M7\JuegoMemoria\obj\Debug\JuegoMemoria.exe
+E:\2DAM\M7\JuegoMemoria\obj\Debug\JuegoMemoria.pdb
